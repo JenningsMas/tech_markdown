@@ -16,7 +16,7 @@ Valve has helpfully included a dedicated "unstick" button in the pause menu whic
 
 1. Open the pasue menu by pressing "esc".
 2. Press the "Unstick Hero" button.
-![An image of the "unstick" button.](img/unstick/unstick_button.jpg)
+![An image of the "unstick" button.](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Unstick/unstick_button.jpg)
 3. Wait for the unstick command to finish. Do not move your character at this time.
 
 If the command was succesful, you will be teleported back onto the map near where you were stuck.
@@ -27,7 +27,7 @@ The built-in unstick button sometimes fails to free your character. Should this 
 1. Open the pause menu by pressing the "esc" key.
 2. Open the developer console from the pause menu by pressing the "F7" key.
 3. Type "unstick" into the console line and press enter.
-![An image of the "unstick" command entered into the console line.](img/unstick/unstick_command.jpg)
+![An image of the "unstick" command entered into the console line.](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Unstick/unstick_command.jpg)
 4. Wait for the unstick command to finish. Do not move your character at this time.
 
 This command will run the "unstick" command, even when the unstick button fails. If the command is successful, you will be teleported back onto the map near where you were stuck.
@@ -38,7 +38,7 @@ As this method will kill your character and initiate a long respawn timer, this 
 1. Open the pause menu by pressing the "esc" key.
 2. Open the developer console from the pause menu by pressing the "F7" key.
 3. Type "killme" in the console line and press enter.
-![An image of the "killme" command entered into the console line.](img/unstick/killme_command.jpg)
+![An image of the "killme" command entered into the console line.](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Unstick/killme_command.jpg)
 
 Your character will die and enter the respawning state. When the respawn timer finishes, you will respawn in your team's base, effectively freeing you from the terrain.
 
