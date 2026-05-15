@@ -45,4 +45,18 @@ Your character will die and enter the respawning state. When the respawn timer f
 ## Conclusion
 Terrain bugs are a frustrating and unfortunately common issue in Deadlock. As Valve continues to work on the game, these issues will hopefully become less persistent as bugs are fixed. In the meantime, use the methods above to free your character from terrain glitches and continue your match.
 
-If you encounter a terrain bug, please report it on the [Deadlock Bug Report Forum](https://forums.playdeadlock.com/forums/bug-reports.6/) to inform the developers of the issue.
+If you encounter a terrain bug, please report it on the [Deadlock Bug Report Forum](https://forums.playdeadlock.com/forums/bug-reports.6/) to inform the developers of the issue. Be sure to follow Valve's [Community Guidelines](https://help.steampowered.com/en/faqs/view/6862-8119-C23E-EA7B) when posting on the official forums.
+
+## FAQ:
+
+### Q: None of the above methods worked, what should I do?
+A: Unfortunately, if the above methods failed to free your character from the terrain, only being defeated by the enemy team can cause your character to respawn. Try using all-chat (Shift + Enter) to guide the enemy team to your position and ask them to defeat you so you may respawn and continue the game.
+
+### Q: What should I include in my bug report?
+A: You should include a descriptive title, a match ID, a breif description of how to reproduce the bug, and any images or video you may have that show the bug occuring. 
+
+Examples of a good bug report title:
+* Character Stuck In Terrain After Dashing at (Location)
+* My Character Got Stuck When I Entered (Location)
+* Terrain Glitch at (Location)
+* You Can Get Stuck in The Map at (Location)
