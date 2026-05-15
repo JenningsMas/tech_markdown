@@ -11,5 +11,6 @@ The pages are designed in such a way as to facilitate the easy addition of new p
 Design-wise, I aimed for a clean, minimalist appearance. 
 
 ## Future Updates
+In the future, I plan to use my JavaScript skills to completely convert my portfolio site to a single page application, using DOM manipulation to dynamically rewrite a single `index.html` file. My main focus as of publication of this article is producing more high-quality technical documentation, but once I have completed this task, portfolio site updates will become my top priority.
 
 ## Conclusion
