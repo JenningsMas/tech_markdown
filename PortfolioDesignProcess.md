@@ -6,7 +6,7 @@ My #1 priority developing my site was ease-of-use. That meant quick load times, 
 
 When I initially created my portfolio site, I was not confident in my JavaScript and DOM manipulation skills, so I opted for a multi-page website. I plan to rework the site into a single page application in the future. For more details on this rewrite, check out [Future Updates](#future-updates).
 
-## Modular Design
+## Modular Design Prevents Future Headaches
 The pages are designed in such a way as to facilitate the easy addition of new pages when necessary. In HTML, each page is divided into three divs, `<nav>`, an `<h1>`, and a "mainContent" `<div>`. This simple design makes it easy to create new pages based on a template, which I find myself doing often when I develop a new piece I'd like to showcase.
 
 This easy template-based page creation process makes adding new portfolio pieces as simple as copying a template file, editing the body text, adding it to the root directory, adding a link on the needed page, and pushing the changes to the repository.
