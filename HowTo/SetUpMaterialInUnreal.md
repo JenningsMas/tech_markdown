@@ -1,7 +1,7 @@
 # How to Create and Configure a Game-Ready Material Using Texture Maps In Unreal Engine 5
 
 ## Overview
-This guide explains how to create and set up a new, game-ready material in Unreal Engine 5 using texture maps.
+This guide explains how to create and set up a new, game-ready material in Unreal Engine 5 using packed ORM maps.
 
 > :bangbang: This guide assumes you are familiar with the basic terminology of texturing and 3D prop modeling.
 
@@ -31,3 +31,8 @@ Launch Unreal Engine 5 from the Epic Games launcher.
 Select the "Games" development category, then select the "Blank" template.
 > :notebook: This tutorial can be applied in non-blank templates or existing projects. A blank template is utilized for demonstration and ease-of-learning.
 
+Leave the "Project Defaults" section unchanged.
+
+Select a location to store your project on your local disk.
+
+Name your project.
