@@ -53,6 +53,8 @@ Click and drag each file into the Unreal Engine Content Browser. This will open 
 
 * For texture map imports,
 
+Your content browser should now contain a static mesh object, a base color map, a normal map, and an ORM map.
+
 By default, Unreal Engine will enable the "SRGB" setting on your imported ORM map. This setting must be disabled to ensure your ORM map applies accurately on your material.
 
 Double-click on your imported ORM map to open its configuration settings.
@@ -60,11 +62,32 @@ Double-click on your imported ORM map to open its configuration settings.
 On the "details" sidebar, scroll down to the "Texture" category, then uncheck the "SRGB" checkbox.
 
 ### Step 3: Create a New Material
-In the content browser, right click and select "Materiel" to create a new empty materiel.
+In the content browser, right click and select "Materiel" to create a new empty material.
 
 Name your material.
 
 > :notebook: It is best practice to name your material "m_materialName". This denotes the file as a material and helps with project organization
 
-### Step 4: Configure Your Material
-Double click on
+### Step 4: Add Texture Maps to Your Material
+Double click on your new material to open the material editor.
+
+In the center of the material editor is the "material graph". The material graph is a collection of nodes that define the attributes of a material.
+
+By default, all new materials contain a base material node which has several inputs corresponding to the material's attributes. We will use additional nodes to modify these inputs with our texture maps.
+
+From the Content Browser, drag and drop your base color, normal, and ORM maps into the material graph. You should now see all three maps as nodes on the graph.
+
+### Step 5: Connect Maps to Base Material Node
+Your texture map nodes contain several connections that can connect to the base material node to alter its attributes.
+
+Connect the RGB connection of your base color map to the Base Color input on the base material node.
+
+Connect the RGB connection of your normal map to the Normal input on the base material node.
+
+ORM maps must be connected to three different inputs to display properly.
+
+* Connect the R connection of your ORM map to the Ambient Occlusion input.
+
+* Connect the G connection of your ORM map to the Roughness input.
+
+* Connect the B connection of your ORM map to the Metallic input.
