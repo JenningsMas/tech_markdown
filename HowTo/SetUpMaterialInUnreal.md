@@ -10,7 +10,7 @@ This guide explains how to create and set up a new, game-ready material in Unrea
 ## What You Will Accomplish
 By following this guide, you will:
 
-* Create a new Unreal Engine project. 
+* Create a new Unreal Engine project.
 * Successfully create a new material with color, normal, and Occlusion, Roughness, Metallic (ORM) maps.
 * Apply your material to a static mesh object.
 * Troubleshoot potential errors.
@@ -23,6 +23,7 @@ Before beginning this tutorial, ensure you have the following:
     > :bangbang: This guide utilizes Unreal Engine version 5.7.3. Ensure you have the correct version before proceeding.
 * A static mesh object to apply your material to.
 * A base color, normal, and ORM map.
+    > :bangbang: Make note of the file path of your static mesh and texture maps. You will need it later in this tutorial.
 
 ## Tutorial Steps
 ### Step 1: Create a New Project
@@ -35,4 +36,35 @@ Leave the "Project Defaults" section unchanged.
 
 Select a location to store your project on your local disk.
 
-Name your project.
+Name your project & create it.
+
+Wait for Unreal Engine to load before proceeding.
+
+### Step 2: Import Maps and Static Mesh
+In your new project, open the Content Browser by clicking the "Content Drawer" button.
+
+The Content Browser is where all project assets are organized and managed.
+
+Open your operating system's file explorer and navigate to the filepath of your static mesh and texture maps.
+
+Click and drag each file into the Unreal Engine Content Browser. This will open the "Import" menu for each file.
+
+* For static mesh imports, ensure the "Static Mesh" checkbox is checked.
+
+* For texture map imports,
+
+By default, Unreal Engine will enable the "SRGB" setting on your imported ORM map. This setting must be disabled to ensure your ORM map applies accurately on your material.
+
+Double-click on your imported ORM map to open its configuration settings.
+
+On the "details" sidebar, scroll down to the "Texture" category, then uncheck the "SRGB" checkbox.
+
+### Step 3: Create a New Material
+In the content browser, right click and select "Materiel" to create a new empty materiel.
+
+Name your material.
+
+> :notebook: It is best practice to name your material "m_materialName". This denotes the file as a material and helps with project organization
+
+### Step 4: Configure Your Material
+Double click on
