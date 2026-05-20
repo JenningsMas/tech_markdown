@@ -84,13 +84,13 @@ Connect the RGB connection of your base color map to the Base Color input on the
 
 Connect the RGB connection of your normal map to the Normal input on the base material node.
 
-ORM maps must be connected to three different inputs to function correctly.
+ORM maps must be connected to three different inputs to apply correctly.
 
-* Connect the R connection of your ORM map to the Ambient Occlusion input.
+* Connect the R connection to the Ambient Occlusion input.
 
-* Connect the G connection of your ORM map to the Roughness input.
+* Connect the G connection to the Roughness input.
 
-* Connect the B connection of your ORM map to the Metallic input.
+* Connect the B connection to the Metallic input.
 
 Your material is is now properly configured.
 
