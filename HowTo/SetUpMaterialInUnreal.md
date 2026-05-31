@@ -95,6 +95,8 @@ Connect the RGB connection of your normal map to the Normal input on the base ma
 
 ORM maps must be connected to three different inputs to apply correctly.
 
+>:bangbang: Unreal Engine labels ORM maps as "ARM" in the material editor. ARM is an alternate acronym for Ambient Occlusion, Roughness, Metallic. There is no difference between "ARM" and "ORM" maps.
+
 * Connect the R connection to the Ambient Occlusion input.
 
 * Connect the G connection to the Roughness input.
