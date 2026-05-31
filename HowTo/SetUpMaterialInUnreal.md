@@ -118,5 +118,7 @@ Select your configured material from the options box.
 
 Your material should now display correctly on the static mesh. To verify, drag and drop the static mesh from the Content Browser into the scene and observe its appearance.
 
+![An image of a mesh with material](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Ue5/finished_mesh.png)
+
 ## Expected Result
 Your static mesh inside your scene should now be textured and correctly display its material. When lit, it should have accurate reflections based on the normal and ORM maps. 
