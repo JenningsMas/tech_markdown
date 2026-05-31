@@ -76,7 +76,9 @@ Name your material.
 > :notebook: It is best practice to name your material "m_materialName". This denotes the file as a material and helps with project organization
 
 ### Step 4: Add Texture Maps to Your Material
-Double click on your new material to open the material editor.
+Double click on your new material to open the material editor. You will see this screen:
+
+
 
 In the center of the material editor is the "material graph". The material graph is a collection of nodes that define the attributes of a material.
 
