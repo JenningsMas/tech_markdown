@@ -78,7 +78,7 @@ Name your material.
 ### Step 4: Add Texture Maps to Your Material
 Double click on your new material to open the material editor. You will see this screen:
 
-
+![An image of an empty material](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Ue5/blank_map.png)
 
 In the center of the material editor is the "material graph". The material graph is a collection of nodes that define the attributes of a material.
 
@@ -100,6 +100,10 @@ ORM maps must be connected to three different inputs to apply correctly.
 * Connect the G connection to the Roughness input.
 
 * Connect the B connection to the Metallic input.
+
+If done correctly, your material graph should appear similar to the following:
+
+![An image of a configured material](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Ue5/finished_map.png)
 
 Your material is is now properly configured.
 
