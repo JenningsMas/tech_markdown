@@ -50,6 +50,9 @@ In your new project, open the Content Browser by clicking the "Content Browser" 
 
 The Content Browser is where all project assets are organized and managed.
 
+![An example of a filled content browser](https://github.com/JenningsMas/tech_markdown/blob/main/HowTo/Img/Ue5/content_brow.png)
+*An example of a filled content browser containing multiple types of assets.*
+
 Open your operating system's file explorer and navigate to the filepath of your static mesh and texture maps.
 
 Click and drag each file into the Unreal Engine Content Browser. This will open the "Import" menu for each file.
